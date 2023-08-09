@@ -44,7 +44,7 @@ public class BankAccount {
            throw new Exception("Account number cannot be generated");
        String AccountNo="";
        //int remainder=sum%9;
-        while(sum>=9) {
+        while(sum>9) {
             AccountNo += '9';
             sum-= 9;
         }
